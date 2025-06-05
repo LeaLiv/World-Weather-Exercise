@@ -6,7 +6,8 @@ import { CitiesList } from './components/citiesList';
 function App() {
  return (
     <div className="App">
-      <h1>מזג האוויר בעולם</h1>
+      <div id='top'> <h1 >תחזית מסביב לעולם</h1></div>
+     
       <CitiesList />
     </div>
   );

@@ -1,17 +1,14 @@
 [{
-    "coord": {
-        "lon": -150.0003,
-        "lat": 64.0003
-    },
+    
     "weather": [
         {
             "id": 500,
             "main": "Rain",
-            "description": "light rain",
+             "description": "גשם קל",
             "icon": "10n"
         }
     ],
-    "base": "stations",
+    
     "main": {
         "temp": 6.55,
         "feels_like": 3.57,
@@ -22,43 +19,21 @@
         "sea_level": 1002,
         "grnd_level": 951
     },
-    "visibility": 10000,
-    "wind": {
-        "speed": 4.37,
-        "deg": 201,
-        "gust": 8.52
-    },
-    "rain": {
-        "1h": 0.19
-    },
-    "clouds": {
-        "all": 100
-    },
-    "dt": 1749113842,
-    "sys": {
-        "country": "US",
-        "sunrise": 1749124043,
-        "sunset": 1749197405
-    },
-    "timezone": -28800,
-    "id": 5879092,
-    "name": "Alaska",
-    "cod": 200
+   
+     "name": "אלסקה"
+
 },
 {
-    "coord": {
-        "lon": -74.006,
-        "lat": 40.7143
-    },
+    
     "weather": [
         {
             "id": 800,
             "main": "Clear",
-            "description": "clear sky",
+             "description": "שמיים בהירים",
             "icon": "01n"
         }
     ],
-    "base": "stations",
+  
     "main": {
         "temp": 20.9,
         "feels_like": 21,
@@ -69,40 +44,19 @@
         "sea_level": 1018,
         "grnd_level": 1017
     },
-    "visibility": 10000,
-    "wind": {
-        "speed": 3.6,
-        "deg": 210
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1749113706,
-    "sys": {
-        "type": 1,
-        "id": 4610,
-        "country": "US",
-        "sunrise": 1749115543,
-        "sunset": 1749169424
-    },
-    "timezone": -14400,
-    "id": 5128581,
-    "name": "New York",
-    "cod": 200
+   
+     "name": "ניו יורק"
 },{
-    "coord": {
-        "lon": 34.9482,
-        "lat": 29.5581
-    },
+    
     "weather": [
         {
             "id": 800,
             "main": "Clear",
-            "description": "clear sky",
+            "description": "שמיים בהירים",
             "icon": "01d"
         }
     ],
-    "base": "stations",
+   
     "main": {
         "temp": 31.91,
         "feels_like": 30.23,
@@ -113,41 +67,20 @@
         "sea_level": 1012,
         "grnd_level": 975
     },
-    "visibility": 7000,
-    "wind": {
-        "speed": 10.29,
-        "deg": 360
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1749113582,
-    "sys": {
-        "type": 1,
-        "id": 7521,
-        "country": "IL",
-        "sunrise": 1749091206,
-        "sunset": 1749141457
-    },
-    "timezone": 10800,
-    "id": 295277,
-    "name": "Eilat",
-    "cod": 200
+    
+    "name": "אילת"
 },
 {
-    "coord": {
-        "lon": -0.1257,
-        "lat": 51.5085
-    },
+    
     "weather": [
         {
             "id": 801,
             "main": "Clouds",
-            "description": "few clouds",
+            "description": "מעונן חלקית",
             "icon": "02d"
         }
     ],
-    "base": "stations",
+   
     "main": {
         "temp": 13.57,
         "feels_like": 13.25,
@@ -158,24 +91,6 @@
         "sea_level": 1003,
         "grnd_level": 999
     },
-    "visibility": 10000,
-    "wind": {
-        "speed": 3.6,
-        "deg": 200
-    },
-    "clouds": {
-        "all": 20
-    },
-    "dt": 1749113823,
-    "sys": {
-        "type": 2,
-        "id": 2075535,
-        "country": "GB",
-        "sunrise": 1749095178,
-        "sunset": 1749154322
-    },
-    "timezone": 3600,
-    "id": 2643743,
-    "name": "London",
-    "cod": 200
+   
+    "name": "לונדון"
 }]

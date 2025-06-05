@@ -3,20 +3,20 @@ import { WeatherData } from "../types/weatherData";
 import axios from "axios";
 import { cities } from "./cities";
 import { WetherCard } from "./weatherCard";
+import devData from "../Data/results.json";
 
 export const CitiesList = () => {
     const [weatherData, setWeatherData] = useState<WeatherData[]>([]);
     useEffect(() => {
         const fetchWeatherData = async () => {
             try {
-                console.log(pro);
+                console.log(process.env.REACT_APP_DEV_MODE);
                 
-                if (process.env.DEV_MODE === "true") {
-                    const response = require("../Data/results.json")
-                    setWeatherData(response.default);
+                if (process.env.REACT_APP_DEV_MODE === "true") {
+                    setWeatherData(devData);
                 }
                 else {
-                    const response = Promise.all(cities.map(city => axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city.query}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric&lang=he}`, {})));
+                    const response =await Promise.all(cities.map(city => axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city.query}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric&lang=he`)));
                     const data = (await response).map(res => res.data);
                     setWeatherData(data);
                 }
