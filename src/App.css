@@ -1,20 +1,108 @@
-html{
+html {
   background-color: #C2E6FF;
   direction: rtl;
+  font-family: Heebo !important;
 }
-#top{
+
+#top {
   width: 100%;
   height: 97px;
   background-color: #FFFFFF;
   margin-top: 0;
   align-items: center;
+  font-family: Heebo, sans-serif;
 
 }
-#top h1{
+
+#top h1 {
   font-weight: 400;
-  font-family: Heebo;
+
   line-height: 100%;
   color: #000000;
   font-size: 32px;
   margin-top: 0;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  flex-shrink: 0;
+  background-color: #fff;
+  box-shadow: 1px 5px 4px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 365px;
+  height: 250px;
+  text-align: right;
+  font-family: Arial, sans-serif;
+  direction: rtl;
+}
+
+.card .icon {
+  float: left;
+  margin-left: 15px;
+  font-size: 1.5em;
+  color: #5d5dff;
+  line-height: 1;
+}
+.card h2 {
+  font-size: 1.7em;
+  margin-top: 0;
+  margin-bottom: 4px;
+  color: #000000;
+}
+
+.card .description {
+  font-size: 1em;
+  color: #8f8f8f;
+  margin-bottom: 15px;
+}
+
+.card .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 7px;
+  margin-top: 7px;
+}
+
+.card .info>div {
+  flex: 1;
+  text-align: center;
+}
+
+
+
+.card .info p:first-child {
+  font-size: 1em;
+  color: #000000;
+  /* Slightly darker text for labels */
+  margin-bottom: 5px;
+}
+
+.card .info p:last-child {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  /* Darker, bolder text for values */
+
+}
+@media (max-width: 768px) {
+    .app-container {
+        justify-content: center; /* מרכז את הכרטיסים במסכים קטנים */
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%; /* כרטיס תופס את כל הרוחב במסכים ממש קטנים */
+        max-width: 300px; /* הגבלה כדי שלא יהיה רחב מדי במכשירים קטנים */
+    }
 }

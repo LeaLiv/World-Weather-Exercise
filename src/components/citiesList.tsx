@@ -27,7 +27,7 @@ export const CitiesList = () => {
         fetchWeatherData();
     }, []);
     return (
-        <div>
+        <div id="card-container">
             {weatherData.map((data, index) => (
                 <WetherCard key={index} data={data} cityName={data.name} />
             ))}
