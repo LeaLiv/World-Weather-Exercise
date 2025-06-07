@@ -2,28 +2,26 @@
     
     "weather": [
         {
-            "id": 500,
-            "main": "Rain",
-             "description": "גשם קל",
-            "icon": "10n"
+            "id": 801,
+            "main": "Clouds",
+            "description": "מעונן חלקית",
+            "icon": "02d"
         }
     ],
-    
+   
     "main": {
-        "temp": 6.55,
-        "feels_like": 3.57,
-        "temp_min": 6.55,
-        "temp_max": 6.55,
-        "pressure": 1002,
-        "humidity": 78,
-        "sea_level": 1002,
-        "grnd_level": 951
+        "temp": 13.57,
+        "feels_like": 13.25,
+        "temp_min": 12.79,
+        "temp_max": 14.58,
+        "pressure": 1003,
+        "humidity": 87,
+        "sea_level": 1003,
+        "grnd_level": 999
     },
    
-     "name": "אלסקה"
-
-},
-{
+    "name": "לונדון"
+},{
     
     "weather": [
         {
@@ -50,47 +48,49 @@
     
     "weather": [
         {
-            "id": 800,
-            "main": "Clear",
-            "description": "שמיים בהירים",
-            "icon": "01d"
+            "id": 804,
+            "main": "Clouds",
+            "description": "מעונן",
+            "icon": "04d"
         }
     ],
-   
-    "main": {
-        "temp": 31.91,
-        "feels_like": 30.23,
-        "temp_min": 31.91,
-        "temp_max": 31.91,
-        "pressure": 1012,
-        "humidity": 25,
-        "sea_level": 1012,
-        "grnd_level": 975
-    },
     
-    "name": "אילת"
+   "main": {
+        "temp": 11.58,
+        "feels_like": 10.05,
+        "temp_min": 11.58,
+        "temp_max": 11.58,
+        "pressure": 1001,
+        "humidity": 48,
+        "sea_level": 1001,
+        "grnd_level": 952
+    },
+   
+     "name": "אלסקה"
+
 },
 {
     
-    "weather": [
+"weather": [
         {
-            "id": 801,
-            "main": "Clouds",
-            "description": "מעונן חלקית",
-            "icon": "02d"
+            "id": 800,
+            "main": "Clear",
+            "description": "שמיים בהירים",
+            "icon": "01n"
         }
     ],
    
-    "main": {
-        "temp": 13.57,
-        "feels_like": 13.25,
-        "temp_min": 12.79,
-        "temp_max": 14.58,
-        "pressure": 1003,
-        "humidity": 87,
-        "sea_level": 1003,
-        "grnd_level": 999
+   "main": {
+        "temp": 32.91,
+        "feels_like": 30.68,
+        "temp_min": 32.91,
+        "temp_max": 32.91,
+        "pressure": 1011,
+        "humidity": 17,
+        "sea_level": 1011,
+        "grnd_level": 974
     },
-   
-    "name": "לונדון"
-}]
+    
+    "name": "אילת"
+}
+]

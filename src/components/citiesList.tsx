@@ -10,8 +10,6 @@ export const CitiesList = () => {
     useEffect(() => {
         const fetchWeatherData = async () => {
             try {
-                console.log(process.env.REACT_APP_DEV_MODE);
-                
                 if (process.env.REACT_APP_DEV_MODE === "true") {
                     setWeatherData(devData);
                 }
